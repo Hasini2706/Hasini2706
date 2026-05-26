@@ -69,17 +69,8 @@
 
 # 📈 Contribution Graph
 
-[![Whenkey's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Hasini2706&theme=tokyo-night)](https://github.com/Hasini2706)
+[![Hasini's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Hasini2706&theme=tokyo-night)](https://github.com/Hasini2706)
 
----
-
-# 🐍 Contribution Snake
-
-<p align="center">
-  <img src="https://github.com/Hasini2706/Hasini2706/blob/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
-</p>
-
----
 
 # 🌐 Connect With Me
 
@@ -89,11 +80,19 @@
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
+&nbsp;
+
+<a href="https://www.linkedin.com/in/Tejo Hasini Madabattula/">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+&nbsp;
+
+<a href="m.tejohasini@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
 </p>
-
----
-
-<p align="center">
   
 ✨ “Consistency beats motivation.” ✨
 
