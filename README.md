@@ -1,7 +1,7 @@
 <h1 align="center">Hey 👋, I'm Hasini</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=AIML+Student;Python+Developer;DSA+Learner;Open+Source+Contributor;Future+ML+Engineer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=AIML+Student;DSA+Learner;Open+Source+Contributor;Future+ML+Engineer" alt="Typing SVG" />
 </p>
 
 ---
