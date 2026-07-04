@@ -55,10 +55,6 @@
 
 ---
 
-# 📈 Contribution Graph
-
-[![Hasini's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Hasini2706&theme=tokyo-night)](https://github.com/Hasini2706)
-
 
 # 🌐 Connect With Me
 
