@@ -1,71 +1,130 @@
-<h1 align="center">Hey 👋, I'm Hasini</h1>
+﻿<div align="center">
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=AIML+Student;DSA+Learner;Open+Source+Contributor;Future+ML+Engineer" alt="Typing SVG" />
-</p>
+  <!-- ANIMATED HERO BANNER (DARK / LIGHT MODE AUTO-SWITCH) -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./hasini-banner.svg?v=1">
+    <source media="(prefers-color-scheme: light)" srcset="./hasini-banner-light.svg?v=1">
+    <img alt="Tejo Hasini Banner" src="./hasini-banner.svg?v=1" width="100%">
+  </picture>
 
----
+  <br><br>
 
-# 💫 About Me
+  <!-- SWINGING LANYARD + FEATURED PROJECTS TABLE -->
+  <table>
+    <tr>
+      <!-- LEFT: SWINGING LANYARD ID CARD -->
+      <td width="35%" align="center" valign="top">
+        <img src="./hasini-lanyard.svg?v=1" alt="Tejo Hasini Lanyard ID" width="100%">
+      </td>
 
-<img align="right" alt="Coding" width="300" src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif">
+      <!-- RIGHT: FEATURED PROJECTS MATRIX -->
+      <td width="65%" valign="top">
+        <h2 align="left">🚀 Featured Projects</h2>
+        <table width="100%">
+          <thead>
+            <tr>
+              <th align="left">Project</th>
+              <th align="left">Description</th>
+              <th align="center">Tech Stack</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><a href="https://github.com/Hasini2706/FraudCore"><b>FraudScore</b></a></td>
+              <td>AI-powered fraud &amp; digital-arrest scam intelligence platform.</td>
+              <td align="center"><code>TypeScript</code> <code>AI/ML</code> <code>XAI</code></td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/Hasini2706/story-spark-ai"><b>AI Interview Agent</b></a></td>
+              <td>AI-powered interview &amp; prompt variation generation system.</td>
+              <td align="center"><code>Python</code> <code>GenAI</code> <code>React</code></td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/Hasini2706/SmartFarm-AI"><b>SmartFarm-AI</b></a></td>
+              <td>AI-powered smart agriculture &amp; crop analytics system.</td>
+              <td align="center"><code>TypeScript</code> <code>Python</code> <code>ML</code></td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/Hasini2706/UltimateHealth"><b>Truetone</b></a></td>
+              <td>AI-powered health library &amp; wellness intelligence app.</td>
+              <td align="center"><code>React Native</code> <code>Node.js</code></td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/Hasini2706/ShopMitra-Pro"><b>Meta Price Tracker</b></a></td>
+              <td>Multi-platform e-commerce price aggregator &amp; price tracker.</td>
+              <td align="center"><code>JavaScript</code> <code>PWA</code> <code>API</code></td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/Hasini2706/safeguard-sos"><b>Guardian AI</b></a></td>
+              <td>AI-powered safety, emergency detection &amp; SOS platform.</td>
+              <td align="center"><code>JavaScript</code> <code>Geolocation</code></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </table>
 
-- 🧠 Exploring AI, ML and modern technologies  
-- 📚 Practicing DSA and improving problem-solving skills  
-- 🚀 Passionate about open source and real-world projects  
-- 💡 Learning something new every single day  
-- 🎯 Working towards becoming a skilled AIML engineer  
-- ⚡ Debugging code like a detective in a crime movie  
+  <br>
 
----
+  <!-- GITHUB STATS + TOP LANGUAGES -->
+  <table width="100%">
+    <tr>
+      <td width="50%" align="center">
+        <img src="./hasini-stats.svg?v=1" alt="Tejo Hasini GitHub Stats" width="100%">
+      </td>
+      <td width="50%" align="center">
+        <img src="./hasini-langs.svg?v=1" alt="Tejo Hasini Top Languages" width="100%">
+      </td>
+    </tr>
+  </table>
 
-# 🛠️ Languages and Tools
+  <br>
 
-<p align="center">
+  <!-- GITHUB STREAK -->
+  <h3>🔥 GitHub Streak &amp; Consistency</h3>
+  <img src="https://streak-stats.demolab.com/?user=Hasini2706&theme=radical&background=0d071b&border=ff2a85&stroke=00f5ff&ring=ff2a85&fire=ff2a85&currStreakNum=00f5ff" alt="Hasini2706 GitHub Streak" width="95%">
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-&nbsp;
-<img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" />
-&nbsp;
-<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
-&nbsp;
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-&nbsp;
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-&nbsp;
-<img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
-&nbsp;
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-&nbsp;
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-&nbsp;
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <br><br>
 
-</p>
+  <!-- CONTRIBUTION ACTIVITY GRAPH -->
+  <h3>📈 Contribution Activity Graph</h3>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hasini2706&theme=react-dark&bg_color=0d071b&color=ff2a85&line=00f5ff&point=ffffff&area=true&hide_border=true" alt="Hasini2706 Activity Graph" width="95%">
 
----
+  <br><br>
 
+  <!-- TROPHIES SHOWCASE -->
+  <h3>🏆 Achievements &amp; Badges</h3>
+  <img src="./hasini-trophies.svg?v=1" alt="Tejo Hasini Trophies" width="100%">
 
-# 🌐 Connect With Me
+  <br><br>
 
-<p align="center">
-  
-<a href="https://github.com/Hasini2706" target="_blank">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-&nbsp;&nbsp;
+  <!-- CONTRIBUTION SNAKE -->
+  <h3>🐍 Watch the Snake Eat My Contributions</h3>
+  <img src="https://raw.githubusercontent.com/Hasini2706/Hasini2706/output/github-contribution-grid-snake.svg" alt="GitHub Snake" width="95%">
 
-<a href="https://www.linkedin.com/in/hasini-tejohasini/" target="_blank">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-&nbsp;&nbsp;
+  <br><br>
 
-<a href="mailto:m.tejohasini@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
+  <!-- LET'S CONNECT -->
+  <h3>📫 Let's Connect &amp; Collaborate</h3>
+  <p>
+    <a href="https://github.com/Hasini2706"><img src="https://img.shields.io/badge/GitHub-Hasini2706-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+    <a href="https://linkedin.com/in/hasini2706"><img src="https://img.shields.io/badge/LinkedIn-Tejo%20Hasini-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+    <a href="mailto:mtejohasini@gmail.com"><img src="https://img.shields.io/badge/Email-mtejohasini%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  </p>
 
-</p>
-  
-✨ “Consistency beats motivation.” ✨
+  <br>
 
-</p>
+  <!-- PROFILE VIEWS -->
+  <p>
+    <img src="https://komarev.com/ghpvc/?username=Hasini2706&color=ff2a85&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views Counter">
+  </p>
+
+  <br>
+
+  <!-- FOOTER -->
+  <p>
+    ✨ <i>"Code. Learn. Build. Contribute. Repeat."</i> ✨
+  </p>
+
+</div>

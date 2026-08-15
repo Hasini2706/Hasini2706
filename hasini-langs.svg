@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 260" width="100%" height="100%">
+  <defs>
+    <linearGradient id="langsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#140a28" />
+      <stop offset="100%" stop-color="#070312" />
+    </linearGradient>
+
+    <linearGradient id="barPy" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff2a85" />
+      <stop offset="100%" stop-color="#b5179e" />
+    </linearGradient>
+
+    <linearGradient id="barTs" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7209b7" />
+      <stop offset="100%" stop-color="#00f5ff" />
+    </linearGradient>
+
+    <linearGradient id="barCpp" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5ff" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+
+    <linearGradient id="borderLangs" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5ff" />
+      <stop offset="100%" stop-color="#ff2a85" />
+    </linearGradient>
+
+    <filter id="shadowLangs">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <style>
+    .title { font-family: 'Segoe UI', sans-serif; font-weight: 800; font-size: 18px; fill: #00f5ff; letter-spacing: 1px; }
+    .lang-name { font-family: 'Segoe UI', sans-serif; font-weight: 600; font-size: 13px; fill: #e2e8f0; }
+    .lang-pct { font-family: 'Fira Code', monospace; font-weight: 700; font-size: 12px; fill: #a78bfa; }
+    
+    @keyframes fillBar {
+      0% { width: 0px; }
+    }
+    .bar-animate { animation: fillBar 1.5s ease-out forwards; }
+  </style>
+
+  <rect width="520" height="260" rx="16" fill="url(#langsBg)" stroke="url(#borderLangs)" stroke-width="2" filter="url(#shadowLangs)" />
+
+  <g transform="translate(30, 35)">
+    <text class="title">🛠 TOP TECHNOLOGIES &amp; STACK</text>
+    <line x1="0" y1="15" x2="460" y2="15" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
+
+    <g transform="translate(0, 35)">
+      <g transform="translate(0, 0)">
+        <text class="lang-name">Python (AI / ML / Data Science)</text>
+        <text x="460" y="0" class="lang-pct" text-anchor="end">92%</text>
+        <rect y="10" width="460" height="8" rx="4" fill="rgba(255,255,255,0.08)" />
+        <rect y="10" width="423" height="8" rx="4" fill="url(#barPy)" class="bar-animate" />
+      </g>
+      <g transform="translate(0, 42)">
+        <text class="lang-name">TypeScript / JavaScript (React / Web)</text>
+        <text x="460" y="0" class="lang-pct" text-anchor="end">88%</text>
+        <rect y="10" width="460" height="8" rx="4" fill="rgba(255,255,255,0.08)" />
+        <rect y="10" width="405" height="8" rx="4" fill="url(#barTs)" class="bar-animate" />
+      </g>
+      <g transform="translate(0, 84)">
+        <text class="lang-name">C++ / C / Java (DSA &amp; Systems)</text>
+        <text x="460" y="0" class="lang-pct" text-anchor="end">80%</text>
+        <rect y="10" width="460" height="8" rx="4" fill="rgba(255,255,255,0.08)" />
+        <rect y="10" width="368" height="8" rx="4" fill="url(#barCpp)" class="bar-animate" />
+      </g>
+      <g transform="translate(0, 126)">
+        <text class="lang-name">SQL &amp; Power BI (Data Analytics)</text>
+        <text x="460" y="0" class="lang-pct" text-anchor="end">84%</text>
+        <rect y="10" width="460" height="8" rx="4" fill="rgba(255,255,255,0.08)" />
+        <rect y="10" width="386" height="8" rx="4" fill="url(#barPy)" class="bar-animate" />
+      </g>
+    </g>
+  </g>
+</svg>

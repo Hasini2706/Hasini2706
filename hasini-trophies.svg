@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 170" width="100%" height="100%">
+  <defs>
+    <linearGradient id="trophyBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#140a28" />
+      <stop offset="100%" stop-color="#070312" />
+    </linearGradient>
+
+    <linearGradient id="cellBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff2a85" stroke-opacity="0.6" />
+      <stop offset="100%" stop-color="#00f5ff" stroke-opacity="0.6" />
+    </linearGradient>
+
+    <filter id="trophyShadow">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <style>
+    .trophy-card { fill: rgba(30, 15, 55, 0.5); stroke: url(#cellBorder); stroke-width: 1.5; rx: 14px; }
+    .trophy-title { font-family: 'Segoe UI', sans-serif; font-weight: 800; font-size: 13px; fill: #ffffff; text-anchor: middle; }
+    .trophy-sub { font-family: 'Segoe UI', sans-serif; font-weight: 600; font-size: 11px; fill: #00f5ff; text-anchor: middle; }
+    .trophy-icon { font-size: 34px; text-anchor: middle; }
+  </style>
+
+  <rect width="1060" height="170" rx="16" fill="url(#trophyBg)" stroke="rgba(255, 42, 133, 0.3)" stroke-width="1.5" filter="url(#trophyShadow)" />
+
+  <g transform="translate(20, 20)">
+    <g transform="translate(0, 0)">
+      <rect width="240" height="130" class="trophy-card" />
+      <text x="120" y="48" class="trophy-icon">🏆</text>
+      <text x="120" y="85" class="trophy-title">GSSoC '26 Contributor</text>
+      <text x="120" y="106" class="trophy-sub">GirlScript Summer of Code</text>
+    </g>
+    <g transform="translate(260, 0)">
+      <rect width="240" height="130" class="trophy-card" />
+      <text x="120" y="48" class="trophy-icon">🤖</text>
+      <text x="120" y="85" class="trophy-title">AI / ML Engineer</text>
+      <text x="120" y="106" class="trophy-sub">FraudCore &amp; GenAI</text>
+    </g>
+    <g transform="translate(520, 0)">
+      <rect width="240" height="130" class="trophy-card" />
+      <text x="120" y="48" class="trophy-icon">🚀</text>
+      <text x="120" y="85" class="trophy-title">Open Source Builder</text>
+      <text x="120" y="106" class="trophy-sub">EaseMotion &amp; Community</text>
+    </g>
+    <g transform="translate(780, 0)">
+      <rect width="240" height="130" class="trophy-card" />
+      <text x="120" y="48" class="trophy-icon">💻</text>
+      <text x="120" y="85" class="trophy-title">19+ Public Repos</text>
+      <text x="120" y="106" class="trophy-sub">GitHub Active Developer</text>
+    </g>
+  </g>
+</svg>

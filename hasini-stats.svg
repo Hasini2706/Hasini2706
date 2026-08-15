@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 260" width="100%" height="100%">
+  <defs>
+    <linearGradient id="statsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#140a28" />
+      <stop offset="100%" stop-color="#070312" />
+    </linearGradient>
+
+    <linearGradient id="borderGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff2a85" />
+      <stop offset="100%" stop-color="#00f5ff" />
+    </linearGradient>
+
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <style>
+    .title { font-family: 'Segoe UI', sans-serif; font-weight: 800; font-size: 18px; fill: #ff2a85; letter-spacing: 1px; }
+    .label { font-family: 'Segoe UI', sans-serif; font-weight: 600; font-size: 14px; fill: #e2e8f0; }
+    .value { font-family: 'Fira Code', monospace; font-weight: 700; font-size: 14px; fill: #00f5ff; }
+  </style>
+
+  <rect width="520" height="260" rx="16" fill="url(#statsBg)" stroke="url(#borderGlow)" stroke-width="2" filter="url(#shadow)" />
+
+  <g transform="translate(30, 35)">
+    <text class="title">⚡ GITHUB PROFILE STATISTICS</text>
+    <line x1="0" y1="15" x2="460" y2="15" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
+
+    <g transform="translate(0, 45)">
+      <g transform="translate(0, 0)">
+        <text class="label">📦 Public Repositories</text>
+        <text x="460" y="0" class="value" text-anchor="end">19 Repos</text>
+      </g>
+      <g transform="translate(0, 35)">
+        <text class="label">🌟 Open Source Track</text>
+        <text x="460" y="0" class="value" text-anchor="end">GSSoC '26 Contributor</text>
+      </g>
+      <g transform="translate(0, 70)">
+        <text class="label">🧠 Specialization</text>
+        <text x="460" y="0" class="value" text-anchor="end">AI / ML &amp; Full-Stack</text>
+      </g>
+      <g transform="translate(0, 105)">
+        <text class="label">🎓 Academic Focus</text>
+        <text x="460" y="0" class="value" text-anchor="end">B.Tech AI &amp; ML</text>
+      </g>
+      <g transform="translate(0, 140)">
+        <text class="label">🔥 Contribution Status</text>
+        <text x="460" y="0" class="value" text-anchor="end" fill="#10b981">Active &amp; Building 🚀</text>
+      </g>
+    </g>
+  </g>
+</svg>
