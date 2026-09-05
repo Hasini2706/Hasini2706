@@ -1,77 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 260" width="100%" height="100%">
-  <defs>
-    <linearGradient id="langsBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#140a28" />
-      <stop offset="100%" stop-color="#070312" />
-    </linearGradient>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 240" width="500" height="240" role="img" aria-label="GitHub Language Breakdown">
+<defs><style><![CDATA[
+text { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+@keyframes fadeUp { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+.row { opacity: 0; animation: fadeUp 0.5s ease forwards; }
+]]></style>
+<linearGradient id="tg" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%"><animate attributeName="stop-color" values="#ff7eb6;#c084fc;#00f5ff;#ff7eb6" dur="6s" repeatCount="indefinite"/></stop>
+  <stop offset="100%"><animate attributeName="stop-color" values="#00f5ff;#ff7eb6;#c084fc;#00f5ff" dur="6s" repeatCount="indefinite"/></stop>
+</linearGradient>
+<clipPath id="stackc">
+  <rect x="24" y="58" width="0" height="12" rx="6">
+    <animate attributeName="width" from="0" to="452" dur="1.4s" begin="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.3 1"/>
+  </rect>
+</clipPath>
+<filter id="glow"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
 
-    <linearGradient id="barPy" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ff2a85" />
-      <stop offset="100%" stop-color="#b5179e" />
-    </linearGradient>
+<rect x="1" y="1" width="498" height="238" rx="14" fill="#150e26" stroke="url(#tg)" stroke-width="1.6"/>
+<rect x="1" y="1" width="498" height="238" rx="14" fill="none" stroke="url(#tg)" stroke-width="3" opacity="0.15" filter="url(#glow)"/>
 
-    <linearGradient id="barTs" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#7209b7" />
-      <stop offset="100%" stop-color="#00f5ff" />
-    </linearGradient>
+<text x="24" y="36" font-size="15" font-weight="bold" fill="url(#tg)">📊 GitHub Language Breakdown</text>
 
-    <linearGradient id="barCpp" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00f5ff" />
-      <stop offset="100%" stop-color="#10b981" />
-    </linearGradient>
+<!-- Progress Bar -->
+<g clip-path="url(#stackc)">
+  <rect x="24.0" y="58" width="228.7" height="12" fill="#563d7c"/>
+  <rect x="252.7" y="58" width="175.8" height="12" fill="#e34c26"/>
+  <rect x="428.5" y="58" width="29.8" height="12" fill="#3178c6"/>
+  <rect x="458.3" y="58" width="17.7" height="12" fill="#f1e05a"/>
+</g>
 
-    <linearGradient id="borderLangs" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00f5ff" />
-      <stop offset="100%" stop-color="#ff2a85" />
-    </linearGradient>
-
-    <filter id="shadowLangs">
-      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity="0.4" />
-    </filter>
-  </defs>
-
-  <style>
-    .title { font-family: 'Segoe UI', sans-serif; font-weight: 800; font-size: 18px; fill: #00f5ff; letter-spacing: 1px; }
-    .lang-name { font-family: 'Segoe UI', sans-serif; font-weight: 600; font-size: 13px; fill: #e2e8f0; }
-    .lang-pct { font-family: 'Fira Code', monospace; font-weight: 700; font-size: 12px; fill: #a78bfa; }
-    
-    @keyframes fillBar {
-      0% { width: 0px; }
-    }
-    .bar-animate { animation: fillBar 1.5s ease-out forwards; }
-  </style>
-
-  <rect width="520" height="260" rx="16" fill="url(#langsBg)" stroke="url(#borderLangs)" stroke-width="2" filter="url(#shadowLangs)" />
-
-  <g transform="translate(30, 35)">
-    <text class="title">🛠 TOP TECHNOLOGIES &amp; STACK</text>
-    <line x1="0" y1="15" x2="460" y2="15" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
-
-    <g transform="translate(0, 35)">
-      <g transform="translate(0, 0)">
-        <text class="lang-name">Python (AI / ML / Data Science)</text>
-        <text x="460" y="0" class="lang-pct" text-anchor="end">92%</text>
-        <rect y="10" width="460" height="8" rx="4" fill="rgba(255,255,255,0.08)" />
-        <rect y="10" width="423" height="8" rx="4" fill="url(#barPy)" class="bar-animate" />
-      </g>
-      <g transform="translate(0, 42)">
-        <text class="lang-name">TypeScript / JavaScript (React / Web)</text>
-        <text x="460" y="0" class="lang-pct" text-anchor="end">88%</text>
-        <rect y="10" width="460" height="8" rx="4" fill="rgba(255,255,255,0.08)" />
-        <rect y="10" width="405" height="8" rx="4" fill="url(#barTs)" class="bar-animate" />
-      </g>
-      <g transform="translate(0, 84)">
-        <text class="lang-name">C++ / C / Java (DSA &amp; Systems)</text>
-        <text x="460" y="0" class="lang-pct" text-anchor="end">80%</text>
-        <rect y="10" width="460" height="8" rx="4" fill="rgba(255,255,255,0.08)" />
-        <rect y="10" width="368" height="8" rx="4" fill="url(#barCpp)" class="bar-animate" />
-      </g>
-      <g transform="translate(0, 126)">
-        <text class="lang-name">SQL &amp; Power BI (Data Analytics)</text>
-        <text x="460" y="0" class="lang-pct" text-anchor="end">84%</text>
-        <rect y="10" width="460" height="8" rx="4" fill="rgba(255,255,255,0.08)" />
-        <rect y="10" width="386" height="8" rx="4" fill="url(#barPy)" class="bar-animate" />
-      </g>
-    </g>
-  </g>
+<!-- Rows -->
+<g class="row" style="animation-delay:0.50s">
+  <circle cx="30" cy="98" r="5" fill="#563d7c"/><text x="44" y="102" font-size="12.5" fill="#e6edf3">CSS / SCSS</text><text x="476" y="102" text-anchor="end" font-size="12.5" font-weight="bold" fill="#ff7eb6">50.6%</text>
+</g>
+<g class="row" style="animation-delay:0.70s">
+  <circle cx="30" cy="128" r="5" fill="#e34c26"/><text x="44" y="132" font-size="12.5" fill="#e6edf3">HTML / Web</text><text x="476" y="132" text-anchor="end" font-size="12.5" font-weight="bold" fill="#c084fc">38.9%</text>
+</g>
+<g class="row" style="animation-delay:0.90s">
+  <circle cx="30" cy="158" r="5" fill="#3178c6"/><text x="44" y="162" font-size="12.5" fill="#e6edf3">TypeScript</text><text x="476" y="162" text-anchor="end" font-size="12.5" font-weight="bold" fill="#00f5ff">6.6%</text>
+</g>
+<g class="row" style="animation-delay:1.10s">
+  <circle cx="30" cy="188" r="5" fill="#f1e05a"/><text x="44" y="192" font-size="12.5" fill="#e6edf3">JavaScript</text><text x="476" y="192" text-anchor="end" font-size="12.5" font-weight="bold" fill="#fde047">2.9%</text>
+</g>
+<g class="row" style="animation-delay:1.30s">
+  <circle cx="30" cy="216" r="5" fill="#3572A5"/><text x="44" y="220" font-size="12.5" fill="#e6edf3">Python &amp; Machine Learning</text><text x="476" y="220" text-anchor="end" font-size="12.5" font-weight="bold" fill="#4ade80">1.0%</text>
+</g>
 </svg>

@@ -1,92 +1,90 @@
-﻿<div align="center">
+<div align="center">
 
+<!-- 🌟 Animated Banner with Auto Dark/Light Mode 🌟 -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./hasini-banner.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="./hasini-banner-light.svg?v=2">
-  <img alt="Tejo Hasini Banner" src="./hasini-banner.svg?v=2" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./hasini-banner.svg?v=4">
+  <source media="(prefers-color-scheme: light)" srcset="./hasini-banner-light.svg?v=4">
+  <img src="./hasini-banner.svg?v=4" alt="Tejo Hasini - AI/ML &amp; Full-Stack Developer" width="100%"/>
 </picture>
 
-<br><br>
+</div>
 
-<table width="100%">
+<br/>
+
+<table align="center" border="0">
 <tr>
-<td width="38%" align="center" valign="top">
+<td width="36%" align="center" valign="middle">
 
-<img src="./hasini-lanyard.svg?v=2" alt="Tejo Hasini Lanyard ID" width="100%">
+<!-- 🎴 Swinging Lanyard ID Card (React Bits style, pure SVG) -->
+<img src="./hasini-lanyard.svg?v=4" alt="Tejo Hasini ID Badge" width="320"/>
 
 </td>
-<td width="62%" valign="top" align="left">
+<td width="64%" valign="middle">
 
-<h3>🚀 Featured Projects</h3>
+### 🚀 Featured Projects
 
-- [**FraudScore**](https://github.com/Hasini2706/FraudCore) — AI-powered fraud &amp; digital-arrest scam intelligence platform. *(TypeScript, AI/ML, XAI)*
-- [**AI Interview Agent**](https://github.com/Hasini2706/story-spark-ai) — AI-powered interview &amp; prompt variation system. *(Python, GenAI, React)*
-- [**SmartFarm-AI**](https://github.com/Hasini2706/SmartFarm-AI) — AI-powered smart agriculture project. *(TypeScript, Python, ML)*
-- [**Truetone**](https://github.com/Hasini2706/UltimateHealth) — AI-powered health library &amp; wellness app. *(React Native, Node.js)*
-- [**Meta Price Tracker**](https://github.com/Hasini2706/ShopMitra-Pro) — Multi-platform e-commerce price tracker. *(JavaScript, PWA, API)*
-- [**Guardian AI**](https://github.com/Hasini2706/safeguard-sos) — AI-powered safety/SOS application. *(JavaScript, Geolocation)*
+| 🚀 Project | 📝 Description | 🛠 Tech Stack |
+|:---|:---|:---:|
+| [🔒 **FraudScore**](https://github.com/Hasini2706/FraudCore) | Enterprise AI Cyber Intel Platform for proactive scam detection | `TypeScript` `AI/ML` `XAI` |
+| [🤖 **AI Interview Agent**](https://github.com/Hasini2706/story-spark-ai) | Creative AI platform for generating dynamic story variations | `TypeScript` `GenAI` `React` |
+| [🌾 **SmartFarm-AI**](https://github.com/Hasini2706/SmartFarm-AI) | Precision agriculture & ML-driven crop yield management platform | `TypeScript` `Python` `ML` |
+| [🩺 **Truetone**](https://github.com/Hasini2706/UltimateHealth) | Open-source digital wellness, AI assistant & health platform | `TypeScript` `React Native` `Node.js` |
+| [📊 **Meta Price Tracker**](https://github.com/Hasini2706/ShopMitra-Pro) | Multi-platform e-commerce price aggregator & alert system | `JavaScript` `PWA` `Web` |
+| [🛡 **Guardian AI**](https://github.com/Hasini2706/safeguard-sos) | Emergency response & real-time automated safety system | `JavaScript` `Security` `SOS` |
+
+<br/>
+
+> 💬 *"Code. Learn. Build. Contribute. Repeat."*
 
 </td>
 </tr>
 </table>
 
-<br>
+<br/>
 
-<table width="100%">
-<tr>
-<td width="50%" align="center">
-<img src="./hasini-stats.svg?v=2" alt="Tejo Hasini GitHub Stats" width="100%">
-</td>
-<td width="50%" align="center">
-<img src="./hasini-langs.svg?v=2" alt="Tejo Hasini Top Languages" width="100%">
-</td>
-</tr>
-</table>
+<div align="center">
 
-<br>
+### 📊 GitHub Stats & Languages
 
-<h3>🔥 GitHub Streak</h3>
+<img src="./hasini-stats.svg?v=4" alt="GitHub Stats" width="48%"/>
+<img src="./hasini-langs.svg?v=4" alt="GitHub Language Breakdown" width="48%"/>
 
-<img src="https://streak-stats.demolab.com/?user=Hasini2706&theme=radical&background=0d071b&border=ff2a85&stroke=00f5ff&ring=ff2a85&fire=ff2a85&currStreakNum=00f5ff" alt="Hasini2706 GitHub Streak" width="95%">
+<br/><br/>
 
-<br><br>
+<img src="https://streak-stats.demolab.com?user=Hasini2706&theme=radical&hide_border=true&background=150e26&ring=ff7eb6&fire=00f5ff&currStreakLabel=c084fc" alt="GitHub Streak"/>
 
-<h3>📈 Contribution Activity Graph</h3>
+<br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Hasini2706&theme=react-dark&bg_color=0d071b&color=ff2a85&line=00f5ff&point=ffffff&area=true&hide_border=true" alt="Hasini2706 Activity Graph" width="95%">
+<!-- 📈 Contribution Activity Graph -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Hasini2706&bg_color=150e26&color=ff7eb6&line=8b5cf6&point=00f5ff&area=true&area_color=8b5cf6&hide_border=true&custom_title=Contribution%20Graph%20🚀" alt="Contribution graph" width="95%"/>
 
-<br><br>
+<br/><br/>
 
-<h3>🏆 Achievements &amp; Badges</h3>
+<!-- 🌟 DEVELOPER HIGHLIGHTS -->
+### 🌟 DEVELOPER HIGHLIGHTS
 
-<img src="./hasini-trophies.svg?v=2" alt="Tejo Hasini Trophies" width="100%">
+<img src="./hasini-trophies.svg?v=4" alt="Developer Highlights" width="95%"/>
 
-<br><br>
+<br/><br/>
 
-<h3>🐍 Watch the Snake Eat My Contributions</h3>
+### 🐍 Watch the snake eat my contributions
 
-<img src="https://raw.githubusercontent.com/Hasini2706/Hasini2706/output/github-contribution-grid-snake.svg" alt="GitHub Snake" width="95%">
+<img src="https://raw.githubusercontent.com/Hasini2706/Hasini2706/output/github-contribution-grid-snake.svg" alt="Contribution snake"/>
 
-<br><br>
+<br/><br/>
 
-<h3>📫 Let's Connect &amp; Collaborate</h3>
+### 📫 Let's Connect
 
-<p>
-<a href="https://github.com/Hasini2706"><img src="https://img.shields.io/badge/GitHub-Hasini2706-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
-<a href="https://linkedin.com/in/hasini2706"><img src="https://img.shields.io/badge/LinkedIn-Tejo%20Hasini-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-<a href="mailto:mtejohasini@gmail.com"><img src="https://img.shields.io/badge/Email-mtejohasini%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-</p>
+<a href="mailto:mtejohasini@gmail.com"><img src="https://img.shields.io/badge/Email-ff7eb6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://github.com/Hasini2706"><img src="https://img.shields.io/badge/GitHub-8b5cf6?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+<a href="https://linkedin.com/in/hasini2706"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 
-<br>
+<br/><br/>
 
-<p>
-<img src="https://komarev.com/ghpvc/?username=Hasini2706&color=ff2a85&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views Counter">
-</p>
+<img src="https://komarev.com/ghpvc/?username=Hasini2706&color=ff7eb6&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views"/>
 
-<br>
+<br/><br/>
 
-<p>
-✨ <i>"Code. Learn. Build. Contribute. Repeat."</i> ✨
-</p>
+*✨ Code is my art, Logic is my superpower. ✨*
 
 </div>
