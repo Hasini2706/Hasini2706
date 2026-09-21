@@ -1,4 +1,4 @@
-<div align="cente">
+<div align="center">
 
 <!-- 🌟 Animated Banner with Auto Dark/Light Mode 🌟 -->
 <picture>
